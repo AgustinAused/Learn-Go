@@ -1,11 +1,9 @@
-package main
+package main //paquete
+import ("fmt") //importacion de paquete(para output)
 
-import "fmt"
+func main() { //funcion
+  fmt.Println("Hello World!") // sentencia
 
-func main() {
-	fmt.Println("Hola, Mundi!");
-	a := 1
-	b := 2
-	c := a + b
-	fmt.Println(c);
+	// Variables
+	// variables()
 }
