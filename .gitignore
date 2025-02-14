@@ -1,21 +1,26 @@
-# compiled files
+# Compiled files
 *.exe
 *.o
 *.out
-*.pyc
-*.pyo
+*.a
+*.so
 
-# logs
+# Go-specific files
+/bin/
+/pkg/
+/vendor/
+
+# Logs
 *.log
 log/*
 !log/.keep
 
-
-
-# OS generated files #
-######################
+# OS generated files
 .DS_Store
 .DS_Store? 
 ._*
 .Spotlight-V100
 .Trashes
+
+# Go Modules (Si usas Go Modules, puedes ignorar los directorios 'vendor' y 'go.sum' si no quieres incluirlo en el repo)
+go.sum
