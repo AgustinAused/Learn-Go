@@ -34,7 +34,7 @@ Este repositorio contiene todo lo que voy aprendiendo sobre Go. Aquí encontrar�
 Si quieres explorar el código, clona el repo y ejecuta los archivos con:  
 
 ```sh
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/AgustinAused/Learn-Go
 cd tu-repo
 go run archivo.go
 ```
